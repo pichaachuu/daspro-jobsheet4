@@ -4,10 +4,10 @@ public class PemilihanHari13 {
         Scanner input00 = new Scanner(System.in);
 
         String dayType;
-        int dayNumber;
+        int dayNomor;
 
         System.out.print("Input number 1-7: ");
-        dayNumber = input00.nextInt();
+        dayNomor = input00.nextInt();
 
             // switch (dayName.toLowerCase()) {
             //     case "monday":
@@ -26,12 +26,12 @@ public class PemilihanHari13 {
             // }
             // System.out.println(dayName + " is a " + dayType);
 
-            if (dayNumber >= 1 && dayNumber <= 5) {
+            if (dayNomor >= 1 && dayNomor <= 5) {
                 dayType = "Weekday";
-                System.out.println(dayNumber + " is Weekday");
-            } else if (dayNumber == 6 || dayNumber == 7) {
+                System.out.println(dayNomor + " is Weekday");
+            } else if (dayNomor == 6 || dayNomor == 7) {
                 dayType = "Weekend";
-                System.out.println(dayNumber + " is weekend");
+                System.out.println(dayNomor + " is weekend");
             } else {
                 System.out.println("number is invalid");
                 return;
