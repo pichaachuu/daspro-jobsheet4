@@ -42,6 +42,8 @@ public class Kafe13 {
                 case 'L':
                     totalHarga += 0.4 * totalHarga;
                     break;
+                default:
+                    System.out.println("Ukuran tidak tersedia");
             }
 
             diskon = keanggotaan ? 0.1 : 0;
