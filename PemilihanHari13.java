@@ -34,7 +34,6 @@ public class PemilihanHari13 {
                 System.out.println(dayNomor + " is weekend");
             } else {
                 System.out.println("number is invalid");
-                return;
             }
     }
 }
